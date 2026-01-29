@@ -1,0 +1,21 @@
+# =====================================================
+# Requirements
+# =====================================================
+
+# Core NLP & Transformers
+transformers>=4.36.0
+torch>=2.0.0
+
+# Caching & utilities (standard but explicit for clarity)
+functools32>=3.2.3; python_version < "3.3"
+
+# Web UI
+gradio>=4.0.0
+
+# Tokenizers & model dependencies
+sentencepiece>=0.1.99
+accelerate>=0.25.0
+
+# Optional (recommended for performance & compatibility)
+numpy>=1.23.0
+scipy>=1.10.0
